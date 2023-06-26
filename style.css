@@ -1,0 +1,29 @@
+#body{
+    background-image: url("colores-vibrantes-5313.webp");
+background-size: cover;
+}
+#vol{
+    float: left;
+}
+#vel{
+    float: right;
+}
+#velocidad, #volumen{
+    width: 150px;
+
+}
+#h1, #h2, #h3{
+    color: aliceblue;
+}
+button{
+    background-color: aqua;
+}
+#velocidad2, #volumen2{
+    background-color: rgb(2, 134, 249);
+}
+canvas{
+    border-color: blanchedalmond;
+    border-width: 1px;
+    border-style: inset;
+    margin-top: 175px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script> 
+    <script src="https://cdnjs.com/libraries/p5.js/"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <title>Dj virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <center>
+    <br>
+        <h1 id="h1">Dj virtual</h1>
+        <p></p>
+        <h3 id="h2">Con la muñeca izquierda controla el volumen de la cancion cuando la mueve arriba es más quedito y abaja el volumen más alto</h3>
+        <p></p>
+        <h3 id="h3">Con la muñeca derecha controlas la velocidad arriba es más lento y abajo más rapido</h3>
+        <p></p>
+        <span>
+            <button onclick="reproducir()">Reproducir</button>
+        </span>
+        <span>
+            <button onclick="detener()">Detener</button>
+        </span>
+        <div id="vel">
+            <img src="disco.gif" id="velocidad">
+            <br>
+            <h3 id="velocidad2">Velocidad</h3>
+        </div>
+        <div id="vol">
+            <img src="disco.gif" id="volumen">
+            <br>
+            <h3 id="volumen2">volumen</h3>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
